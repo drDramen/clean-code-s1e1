@@ -35,8 +35,6 @@
 ul {
   margin: 0;
   padding: 0px;
-}
-li, h3 {
   list-style: none;
 }
 input,button{
@@ -63,7 +61,6 @@ input,button{
   text-transform: uppercase;
 }
 .todo-input {
-  margin: 0;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
