@@ -31,7 +31,6 @@ body {
 }
 .task {
   width: 56%;
-  display: inline-block;
   flex-grow: 1;
 }
 .task-row-wrapper {
@@ -53,7 +52,6 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
   cursor: pointer;
 }
 button:hover {
@@ -62,7 +60,6 @@ button:hover {
 /* Heading */
 h3,
 label[for="new-task"] {
-  color: #333;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
@@ -79,7 +76,6 @@ input[type="text"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
   color: #888;
 }
 input[type="text"]:focus {
@@ -90,9 +86,6 @@ input[type="text"]:focus {
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
-}
-input#new-task {
-  width: 318px;
 }
 
 /* Task list */
@@ -105,9 +98,6 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
-  vertical-align: middle;
-}
 
 li > input[type="checkbox"] {
   margin: 0 10px;
@@ -116,11 +106,8 @@ li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
 }
-li >    input[type="text"] {
-  width: 226px;
-}
+
 button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -143,7 +130,6 @@ ul li input[type=text] {
 
 ul li.editMode input[type=text] {
   display: inline-block;
-  width: 224px;
 }
 
 ul li.editMode label {
