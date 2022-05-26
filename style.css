@@ -10,6 +10,7 @@
   display: block;
 }
 .header__container {
+  margin-bottom: 23px;
   text-align: right;
 }
 .header__img {
@@ -21,6 +22,9 @@
 .task-name {
   width: 56%;
   flex-grow: 1;
+}
+.todo-add {
+  margin-bottom: 15px;
 }
 .todo-add__wrapper {
   display: flex;
