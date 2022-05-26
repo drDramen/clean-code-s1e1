@@ -20,11 +20,6 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
-  .header__container {
-    text-align: center;
-  }
-}
 .task-name {
   width: 56%;
   flex-grow: 1;
@@ -126,4 +121,10 @@ button{
 
 .task--edit-mode > .task__label {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .header__container {
+    text-align: center;
+  }
 }
