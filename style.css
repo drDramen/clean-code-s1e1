@@ -4,40 +4,50 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .container {
   width: 500px;
   margin: 0 auto;
   display: block;
 }
+
 .header__container {
   margin-bottom: 23px;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__more-inf {
   font-family: fantasy, cursive;
 }
+
 .task-name {
   width: 56%;
   flex-grow: 1;
 }
+
 .todo-add {
   margin-bottom: 15px;
 }
+
 .todo-add__wrapper {
   display: flex;
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 input,
 button {
   outline: none;
 }
+
 .todo-btn {
   background: none;
   border: 0;
@@ -46,9 +56,11 @@ button {
   width: 60px;
   cursor: pointer;
 }
+
 .todo-btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .title {
   font-weight: 700;
@@ -58,6 +70,7 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .todo-input {
   font-size: 18px;
   line-height: 18px;
@@ -68,6 +81,7 @@ button {
   border-radius: 6px;
   color: #888;
 }
+
 .todo-input:focus {
   color: #333;
 }
@@ -91,6 +105,7 @@ button {
 .task__complete {
   margin: 0 10px;
 }
+
 .task__label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -102,6 +117,7 @@ button {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete__icon:hover {
   transform: rotateZ(0);
 }
